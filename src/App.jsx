@@ -8,8 +8,8 @@ function App() {
     <BrowserRouter>
      <div className="flex">
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route exact path="/contacto" element={<Contacto />} />
+        <Route exact path="/contacto" element={<Home />} />
+        <Route exact path="/" element={<Contacto />} />
       </Routes>
      
       </div>
