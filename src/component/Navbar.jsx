@@ -75,7 +75,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import Imagen from "../img/ingeniar.png";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import "./Navbar.css";
+
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -103,12 +109,50 @@ const Navbar = () => {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/contacto">Projects</Link>
+          <Link to="/contacto">Nosotros</Link>
         </li>
         <li>
-          <Link to="/contacto">About</Link>
+          <Link to="/contacto">Servicios</Link>
+        </li>
+        <li>
+          <Link to="/contacto">Clientes</Link>
+        </li>
+        <li>
+          <Link to="/contacto">Contacto</Link>
         </li>
       </ul>
+      <div className="icons">
+      <div className="location">
+        <WhatsAppIcon
+          className="mui"
+          size={20}
+          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+        />
+        <div className="location">
+        <FacebookIcon
+          className="mui"
+          size={20}
+          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+        />
+        </div>
+        <div className="location">
+        <InstagramIcon
+          className="mui"
+          size={20}
+          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+        />
+        </div>
+        <div className="location">
+        <LinkedInIcon
+          className="mui"
+          size={20}
+          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+        />
+        </div>
+      </div>
+
+      </div>
+      
       <div className="hamburguer" onClick={handleClick}>
         {click ? (
           <CloseIcon size={30} style={{ color: "#fff" }} />

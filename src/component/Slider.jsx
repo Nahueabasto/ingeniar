@@ -11,8 +11,8 @@ const Slider = () => {
         <img className="into-img" src={Imagen} alt="Imagen de computadora" />
       </div>
       <div className="content">
-        <h1>Full Stack Developer</h1>
-        <p>NAHUEL ABASTO</p>
+        {/* <h1>Full Stack Developer</h1>
+        <p>NAHUEL ABASTO</p> */}
         {/* <div>
           <Link to="/proyectos" className="btn">
             PROYECTOS
