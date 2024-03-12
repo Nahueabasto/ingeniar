@@ -106,7 +106,7 @@ const Navbar = () => {
           <Link to="/contacto">Projects</Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/contacto">About</Link>
         </li>
       </ul>
       <div className="hamburguer" onClick={handleClick}>

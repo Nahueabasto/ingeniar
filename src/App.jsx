@@ -1,19 +1,19 @@
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, HashRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Contacto from './pages/Contacto';
 import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
      <div className="flex">
       <Routes>
-        <Route exact path="/contacto" element={<Home />} />
-        <Route exact path="/" element={<Contacto />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/contacto" element={<Contacto />} />
       </Routes>
      
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
