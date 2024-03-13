@@ -1,0 +1,89 @@
+.footer {
+    display: flex;
+    background-color: rgba(61, 62, 150, 0.85);
+    padding: 10px 0; /* Alto de Footer */
+    text-align: center;
+    color: white; /* Cambia el color del texto a blanco */
+    flex-direction: column;
+    
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 100%; /* Ajusta el ancho máximo */
+    margin: 0;
+    padding: 40px;
+    
+  }
+  
+
+  
+  .container div {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+  
+  
+  .Contacto p,
+  .Informacion p {
+    margin-bottom: 5px;
+  }
+  
+  
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  
+  
+  .links {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .links:hover {
+    color: green;
+  }
+  
+  hr {
+    position: absolute; /* Posiciona la línea de forma absoluta dentro del contenedor */
+    width: 100%;
+    bottom: 10px; /* Ajusta la posición vertical de la línea */
+  }
+  
+  .rights {
+    text-align: center;
+    margin-top: 10px; /* Ajusta el espacio superior del contenedor de derechos de autor */
+  }
+  
+  .rights p {
+    margin-top: 10px; /* Ajusta el espacio superior del texto de derechos de autor */
+  }
+
+  @media screen and (max-width: 900px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+  }
+
+  @media screen and (max-width: 505px) {
+    .container {
+      grid-template-columns: 1fr;
+      grid-gap: 0px;
+    }
+
+    .container div {
+        margin-bottom: 30px;
+        margin-left: 30px;
+      }
+      .rights {
+        margin-top: -20px; /* Ajusta el espacio superior del texto de derechos de autor */
+      }
+  }
