@@ -7,26 +7,26 @@ import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import "./Navbar.css";
+import "./Navbaralt.css";
 
 
-const Navbar = () => {
+const Navbaralt = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
   const [color, setColor] = useState(false);
-  const changeColor = () => {
-    if (window.scrollY >= 100) {
-      setColor(true);
-    } else {
-      setColor(false);
-    }
-  };
+//   const changeColor = () => {
+//     if (window.scrollY >= 100) {
+//       setColor(true);
+//     } else {
+//       setColor(false);
+//     }
+//   };
 
-  window.addEventListener("scroll", changeColor);
+//   window.addEventListener("scroll", changeColor);
 
   return (
-    <div className={color ? "header header-bg" : "header"}>
+    <div className={color ? "heade heade-bg" : "heade"}>
       <Link to="/">
         <h1>Ingeniar</h1>
       </Link>
@@ -91,4 +91,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbaralt;
