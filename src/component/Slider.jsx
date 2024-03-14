@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import Imagen from "../img/react.png";
 import image1 from "../img/ing.png";
 import image2 from "../img/ing1.png";
@@ -14,6 +13,7 @@ const Slider = () => {
     { image: image3, phrase: "Frase 4", url: '/10' }
   ]);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -21,7 +21,9 @@ const Slider = () => {
       setCurrentSlideIndex((prevIndex) =>
         prevIndex === slidePictures.length - 1 ? 0 : prevIndex + 1
       );
-    }, 4000); // Cambiar cada 3 segundos (ajusta según tus necesidades)
+      // Reiniciar el estado de carga de la imagen
+      setImageLoaded(false);
+    }, 4000); // Cambiar cada 4 segundos (ajusta según tus necesidades)
 
     // Limpiar el intervalo cuando el componente se desmonta o el slide cambia
     return () => clearInterval(interval);
@@ -30,10 +32,17 @@ const Slider = () => {
   return (
     <div className="hero">
       <div className="mask">
-        <img className="into-img" src={slidePictures[currentSlideIndex].image} alt="Imagen de computadora" />
+        <img
+          className="into-img"
+          src={slidePictures[currentSlideIndex].image}
+          alt="Imagen de computadora"
+          onLoad={() => setImageLoaded(true)} // Marcar la imagen como cargada
+        />
       </div>
       <div className="content">
-        <h2>{slidePictures[currentSlideIndex].phrase}</h2>
+        {imageLoaded && (
+          <h2>{slidePictures[currentSlideIndex].phrase}</h2>
+        )}
         {/* Puedes agregar contenido adicional aquí */}
         {/* Por ejemplo, enlaces */}
         {/* <div>
@@ -50,5 +59,3 @@ const Slider = () => {
 };
 
 export default Slider;
-
-
