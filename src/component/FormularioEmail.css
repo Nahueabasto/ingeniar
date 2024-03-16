@@ -2,6 +2,7 @@
     background-color: #fff;
     /* Puedes ajustar este valor según tus necesidades */
      /* Esto centra el contenedor horizontalmente */
+     margin: 0 auto;
     padding: 30px; /* Añade un poco de espacio alrededor del contenido */
     display: grid;
     grid-template-columns: 1fr 2fr;
