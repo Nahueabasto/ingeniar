@@ -1,0 +1,149 @@
+.contact-page-wrapper{
+    background-color: #fff;
+    /* Puedes ajustar este valor según tus necesidades */
+     /* Esto centra el contenedor horizontalmente */
+    padding: 30px; /* Añade un poco de espacio alrededor del contenido */
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.heading-container {
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 80px;
+  }
+
+  .primary-headin{
+    margin-top: 20px;
+  }
+  
+
+.header-contact {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Add a border for the card effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for depth */
+    background-color: #fff; /* Set the background color */
+    margin-top: 0px;
+    
+  }
+    
+    .field {
+      margin-bottom: 10px;
+    }
+    
+    .field label {
+      display: block;
+      font-size: 19px;
+      color: #555454;
+      width: 100%;
+    }
+    
+    .field input[type="text"],
+    .field input[type="email"],
+    .field textarea {
+      min-width: 450px;
+      display: block;
+      width: 100%;
+      padding: 10px; /* Adjust padding for input and textarea as needed */
+      font-size: 14px;
+      margin-bottom: 5px;
+      border: 1px solid #ccc; /* Add border for input and textarea */
+      border-radius: 5px;
+    }
+    
+    textarea {
+      resize: vertical; 
+    }
+    
+    /* input[type="submit"] {
+      display: block;
+      padding: 8px 30px;
+      font-size: 14px;
+      background-color: #4460AA;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer; 
+    }
+     */
+     
+    .btn-send {
+      min-width: 460px;
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      background-color:rgba(61, 62, 150, 0.85);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 19px;
+      margin-top: 12px;
+    }
+  
+    @media screen and (max-width: 800px) {
+        .contact-page-wrapper{
+            grid-template-columns: 1fr;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+      .formulario{
+    margin-top: 10px;
+     
+      top: 50%;
+      
+      }
+
+      .heading-container {
+        text-align: left;
+        margin-top: 0px;
+        margin-left: 50px;
+      }
+  
+      .header-contact {
+        max-width: 450px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 8px;
+        border: 1px solid #ccc; /* Add a border for the card effect */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for depth */
+        background-color: #fff; /* Set the background color */
+      }
+  
+    .field input[type="text"],
+    .field input[type="email"],
+    .field textarea {
+      min-width: 300px;
+      display: block;
+      width: 100%;
+      padding: 10px; /* Adjust padding for input and textarea as needed */
+      font-size: 14px;
+      margin-bottom: 5px;
+      border: 1px solid #ccc; /* Add border for input and textarea */
+      border-radius: 5px;
+    }
+  
+    .btn-send {
+      min-width: 350px;
+      display: block;
+      margin: 0 auto;
+      padding: 10px 20px;
+      background-color: rgba(61, 62, 150, 0.85);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 19px;
+      margin-top: 12px;
+    }
+  
+    }
+    
+  
+  
