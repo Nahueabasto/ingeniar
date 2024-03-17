@@ -3,15 +3,17 @@
     /* Puedes ajustar este valor según tus necesidades */
      /* Esto centra el contenedor horizontalmente */
      margin: 0 auto;
-    padding: 30px; /* Añade un poco de espacio alrededor del contenido */
+     padding: 10rem 50px 0rem 50px; /* Añade un poco de espacio alrededor del contenido */
+   
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin-top: 40px;
+    
     margin-bottom: 40px;
     justify-content: center;
 }
 
 .heading-container {
+  
     text-align: left;
     margin-top: 0px;
     margin-left: 80px;
@@ -91,7 +93,6 @@
     @media screen and (max-width: 800px) {
         .contact-page-wrapper{
             grid-template-columns: 1fr;
-            margin-top: 30px;
             margin-bottom: 30px;
             justify-content: center;
         }
@@ -105,7 +106,6 @@
 
       .heading-container {
         text-align: left;
-        margin-top: 0px;
         margin-left: 10px;
       }
   
