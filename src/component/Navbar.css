@@ -77,8 +77,8 @@
 }
 
 @media screen and (max-width: 800px) {
-  .heade{
-    padding: 0 0px;
+  .header{
+    padding: 0 10px;
   }
 
   .icons{

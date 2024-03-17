@@ -75,7 +75,7 @@
      */
      
     .btn-send {
-      min-width: 460px;
+      min-width: 560px;
       display: block;
       margin: 0 auto;
       padding: 10px 20px;
@@ -106,7 +106,7 @@
       .heading-container {
         text-align: left;
         margin-top: 0px;
-        margin-left: 70px;
+        margin-left: 10px;
       }
   
       .header-contact {
