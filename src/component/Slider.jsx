@@ -29,6 +29,16 @@ const Slider = () => {
     return () => clearInterval(interval);
   }, [currentSlideIndex, slidePictures]);
 
+  const handlePrev = () => {
+    setCurrentSlideIndex((prevIndex) => (prevIndex - 1 + slidePictures.length) % slidePictures.length);
+  }; // Para calcular el index resta 1 del current index, le suma el largo total del array y calcula el resto dividiendo el index por la longitud de todo el array - de modo que si el index es cero y vas para atrás, vuelvas al 3. Es una "wrap-around logic".
+
+  const handleNext = () => {
+    setCurrentSlideIndex((prevIndex) => (prevIndex + 1) % slidePictures.length);
+  };  //lo mismo pero sumando.
+
+
+
   return (
     <div className="hero">
       <div className="mask">
@@ -43,16 +53,14 @@ const Slider = () => {
         {imageLoaded && (
           <h2>{slidePictures[currentSlideIndex].phrase}</h2>
         )}
-        {/* Puedes agregar contenido adicional aquí */}
-        {/* Por ejemplo, enlaces */}
-        {/* <div>
-          <Link to="/proyectos" className="btn">
-            PROYECTOS
-          </Link>
-          <Link to="/contacto" className="btn btn-light">
-            MI CURRICULUM
-          </Link>
-        </div> */}
+      </div>
+      <div className="slide-controls">
+      <button className="slide-control prev" onClick={handlePrev}>
+          &lt;
+        </button>
+        <button className="slide-control next" onClick={handleNext}>
+          &gt;
+        </button>
       </div>
     </div>
   );
