@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Navbaralt from '../component/NavbarAlt';
 import Footer from '../component/Footer';
-import Phrase from '../component/Pharse';
+import Services from '../component/Services';
 export default function Servicios(){
 
     useEffect(() => {
@@ -12,7 +12,7 @@ export default function Servicios(){
     return(
         <div>
             <Navbaralt />
-            <Phrase /> 
+            <Services /> 
             <Footer />
         </div>
     )
