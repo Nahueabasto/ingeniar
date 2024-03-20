@@ -56,4 +56,11 @@
     .member {
       margin: 15px 0; /* Ajusta la separación entre los miembros en la columna */
     }
+
+    .subtitle-container {
+      padding: 0rem 20px 0rem 20px;
+      margin: 0 auto; /* Centra el subtítulo */
+      padding-top: 0rem; /* Ajusta el espaciado entre el grupo de miembros y el subtítulo */
+    }
+    
   }
