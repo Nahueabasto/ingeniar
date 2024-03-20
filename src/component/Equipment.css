@@ -1,0 +1,30 @@
+.group-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10rem 50px 3rem 50px;
+    max-width: 900px; /* Establece un ancho máximo de separacion*/
+    margin: 0 auto;
+  }
+
+  .member {
+    text-align: center;
+    margin: 0 10px; /* Ajusta la separación entre los miembros */
+  }
+  
+  .member-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  
+  .member-name {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .member-description {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  

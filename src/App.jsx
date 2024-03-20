@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Clientes from './pages/Clientes';
 import Contacto from './pages/Contacto';
 import Nosotros from './pages/Nosotros';
+import Gracias from './pages/Gracias';
 import Servicios from './pages/Servicios';
 import './App.css'
 
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/contacto" element={<Contacto />} />
         <Route exact path="/clientes" element={<Clientes />} />
+        <Route exact path="/gracias" element={<Gracias />} />
         <Route exact path="/nosotros" element={<Nosotros />} />
         <Route exact path="/servicios" element={<Servicios />} />
       </Routes>

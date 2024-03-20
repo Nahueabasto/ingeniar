@@ -12,6 +12,19 @@
     background-size: cover;
     background-position: center;
     object-fit: cover;
+    animation: fadeInOut 2s ease-in-out infinite alternate; /* Aplica la animación */
+  }
+
+  @keyframes fadeInOut {
+    0% {
+      opacity: 3; /* Empieza invisible */
+    }
+    /* 50% {
+      opacity: 0; 
+    } */
+    100% {
+      opacity: 2; /* Vuelve a estar invisible */
+    }
   }
   
   /* .mask::after {
