@@ -19,12 +19,23 @@
   }
   
   .member-name {
-    margin-top: 10px;
+    margin-top: 30px;
     font-weight: bold;
+    text-align: left;
   }
   
   .member-description {
     margin-top: 5px;
     font-size: 14px;
   }
+
+  @media screen and (max-width: 800px) {
+    .group-container {
+      flex-direction: column; /* Cambia la dirección de flexión a columna */
+      align-items: center; /* Centra los elementos en la dirección principal */
+    }
   
+    .member {
+      margin: 15px 0; /* Ajusta la separación entre los miembros en la columna */
+    }
+  }

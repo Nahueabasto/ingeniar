@@ -14,13 +14,13 @@ const Equipment = () => {
     {
       id: 2,
       name: "Miembro 2",
-      image: "ruta-a-la-imagen-2.jpg",
+      image: Nahuel,
       description: "Descripción del miembro 2"
     },
     {
       id: 3,
       name: "Miembro 3",
-      image: "ruta-a-la-imagen-3.jpg",
+      image: Nahuel,
       description: "Descripción del miembro 3"
     }
   ];
