@@ -14,6 +14,7 @@
 
 .container {
   display: grid;
+  flex-wrap: wrap;
   grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   max-width: 100%; /* Ajusta el ancho máximo */
@@ -23,12 +24,12 @@
 
 .Informacion{
   justify-content: center;
-  padding: 0rem 50px 0rem 50px;
+  padding: 0rem 0px 0rem 20px;
 }
 
 .Contacto{
   justify-content: center;
-  padding: 0rem 50px 0rem 50px;
+  padding: 0rem 0px 0rem 20px;
 }
 
 .Contacto p,
@@ -37,9 +38,14 @@
  
 }
 
+.logotipo{
+  justify-content: center;
+  padding: 0rem 0px 0rem 50px;
+}
+
 .social-links {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin-top: 5px;
 }
 
@@ -59,11 +65,7 @@
     color: green;
   }
   
-  hr {
-    position: absolute; /* Posiciona la línea de forma absoluta dentro del contenedor */
-    width: 100%;
-    bottom: 10px; /* Ajusta la posición vertical de la línea */
-  }
+
   
   .rights {
     text-align: center;
@@ -73,6 +75,8 @@
   .rights p {
     margin-top: 10px; /* Ajusta el espacio superior del texto de derechos de autor */
   }
+
+
 
   @media screen and (max-width: 900px) {
     .container {
@@ -93,5 +97,9 @@
       }
       .rights {
         margin-top: -20px; /* Ajusta el espacio superior del texto de derechos de autor */
+      }
+      .social-links {
+        justify-content: center; 
+      
       }
   }

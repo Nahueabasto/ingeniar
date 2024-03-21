@@ -14,7 +14,8 @@ export default function Footer(){
       <div className="footer" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${ImagenFooter})` }}>
 
         <div className="container">
-        <div>
+
+      <div className="logotipo">
       <img className="logoeco" src={Imagen} alt="EcoEcho" width="150" height="100" />
       </div>
 
