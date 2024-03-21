@@ -70,3 +70,6 @@ const Slider = () => {
 
 export default Slider;
 
+//arrow mas grande para el slider, para las flechas. ver como mejorar las imagenes para que queden mas nitidas y ver que agregar en el home, que mas agregar
+//luego ver la sesion de servicios, ver como armar la estructura
+//luego ver la sesion de clientres, ver como armar la estructura.-
