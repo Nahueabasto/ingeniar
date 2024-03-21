@@ -56,7 +56,7 @@
     z-index: 1; /* Ensure the controls are positioned above the slide pictures */
   }
 
-  .slide-controls button.slide-control {
+  .slide-controls div.slide-control {
     background: rgba(0, 0, 0, 0.5); /* Black background with transparency */
     border: none;
     color: white;
@@ -69,11 +69,11 @@
     justify-content: center;
   }
 
-  .slide-controls button.slide-control:focus {
+  .slide-controls div.slide-control:focus {
     outline: none;
   }
   
-  .slide-controls button.slide-control:hover {
+  .slide-controls div.slide-control:hover {
     opacity: 0.8;
   }
   

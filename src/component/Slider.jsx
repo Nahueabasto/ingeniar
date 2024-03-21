@@ -3,6 +3,8 @@ import Imagen from "../img/react.png";
 import image1 from "../img/ing.png";
 import image2 from "../img/ing1.png";
 import image3 from "../img/ing2.png";
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import "./Slider.css";
 
 const Slider = () => {
@@ -55,12 +57,12 @@ const Slider = () => {
         )}
       </div>
       <div className="slide-controls">
-      <button className="slide-control prev" onClick={handlePrev}>
-          &lt;
-        </button>
-        <button className="slide-control next" onClick={handleNext}>
-          &gt;
-        </button>
+        <div className="slide-control prev" onClick={handlePrev}>
+            <ArrowBackIosNewIcon size={50} style={{ color: "#d6d2d2", fontSize: "large" }} />
+          </div>
+        <div className="slide-control next" onClick={handleNext}>
+            <ArrowForwardIosIcon size={50} style={{ color: "#d6d2d2", fontSize: "large" }} />
+          </div>
       </div>
     </div>
   );
