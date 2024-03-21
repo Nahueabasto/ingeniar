@@ -1,47 +1,55 @@
 .footer {
-    display: flex;
-    background-color: rgba(61, 62, 150, 0.85);
-    padding: 10px 0; /* Alto de Footer */
-    text-align: center;
-    color: white; /* Cambia el color del texto a blanco */
-    flex-direction: column;
-    
-  }
-  
-  .container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 40px;
-    max-width: 100%; /* Ajusta el ancho máximo */
-    margin: 0;
-    padding: 40px;
-    
-  }
-  
+  display: flex;
+  padding: 40px 0; /* Alto de Footer */
+  color: white; /* Cambia el color del texto a blanco */
+  flex-direction: column;
+  /* background-image: url('../img/footer.png'); */
+  background-size: cover;
+  /* background-position: center; */ /* PARA QUE LA IMAGEN QUEDE CENTRADA */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  z-index: -1;
 
-  
-  .container div {
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: left;
-  }
-  
-  
-  .Contacto p,
-  .Informacion p {
-    margin-bottom: 5px;
-  }
-  
-  
-  .social-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-  }
-  
-  
-  
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 100%; /* Ajusta el ancho máximo */
+  margin: 0;
+  padding: 40px;
+}
+
+.Informacion{
+  justify-content: center;
+  padding: 0rem 50px 0rem 50px;
+}
+
+.Contacto{
+  justify-content: center;
+  padding: 0rem 50px 0rem 50px;
+}
+
+.Contacto p,
+.Informacion p {
+  margin-bottom: 5px;
+ 
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+
+.mui:hover {
+  color: lightgreen;
+  transition: all 0.2s ease;
+}
+
+
   .links {
     text-decoration: none;
     color: inherit;

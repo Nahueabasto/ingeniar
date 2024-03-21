@@ -1,8 +1,9 @@
 import React from "react";
+import ImagenFooter from "../img/footer.png";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-
 import Imagen from "../img/ingeniar.png";
 import { Link } from "react-router-dom";
 import "./Footer.css"
@@ -10,9 +11,9 @@ import "./Footer.css"
 export default function Footer(){
 
     return(
-      <div className="footer">
-        <div className="container">
+      <div className="footer" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${ImagenFooter})` }}>
 
+        <div className="container">
         <div>
       <img className="logoeco" src={Imagen} alt="EcoEcho" width="150" height="100" />
       </div>
@@ -38,35 +39,68 @@ export default function Footer(){
       <p>
         Argentina
       </p>
-  
 </div>
   
-  
   <div className="social-links">
-    <Link to="/" className="links">
+  <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
+      <div className="location">
+    <WhatsAppIcon
+          className="mui"
+          size={20}
+          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+        />
+        </div>
+  </a>
+  <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
+      <div className="location">
     <FacebookIcon
           className="mui"
           size={20}
           style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
         />
-    </Link>
-    <Link to="/" className="links">
-      
-    </Link>
-    <Link to="/" className="links">
-      
-    </Link>
+        </div>
+  </a>
+    <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
+      <div className="location">
+    <InstagramIcon
+          className="mui"
+          size={20}
+          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+        />
+        </div>
+  </a>
+  <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
+      <div className="location">
+    <LinkedInIcon
+          className="mui"
+          size={20}
+          style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
+        />
+        </div>
+  </a>
   </div>
 
-
-
   </div>
-
   <p className="rights">
       &copy; 2024 Ingeniar | All Rights Reserved
     </p>
+    
 </div>
-
-
     )
 }
