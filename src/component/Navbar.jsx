@@ -49,12 +49,24 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="icons">
+      <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
       <div className="location">
         <WhatsAppIcon
           className="mui"
           size={20}
           style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
         />
+          </div>
+          </a>
+          <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
         <div className="location">
         <FacebookIcon
           className="mui"
@@ -62,6 +74,12 @@ const Navbar = () => {
           style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
         />
         </div>
+        </a>
+        <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
         <div className="location">
         <InstagramIcon
           className="mui"
@@ -69,6 +87,12 @@ const Navbar = () => {
           style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
         />
         </div>
+        </a>
+        <a
+      href=""
+      target="_blank" // Esto abre el enlace en una nueva pestaña o ventana
+      rel="noopener noreferrer" // Recomendado para seguridad
+    >
         <div className="location">
         <LinkedInIcon
           className="mui"
@@ -76,10 +100,8 @@ const Navbar = () => {
           style={{ color: "#fff", fontSize: "large", marginRight: "1rem" }}
         />
         </div>
+        </a>
       </div>
-
-      </div>
-      
       <div className="hamburguer" onClick={handleClick}>
         {click ? (
           <CloseIcon size={30} style={{ color: "#fff" }} />
