@@ -13,12 +13,10 @@ export default function Footer(){
     return(
       <div className="footer" style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${ImagenFooter})` }}>
 
-        <div className="container">
-
+      <div className="container">
       <div className="logotipo">
       <img className="logoeco" src={Imagen} alt="EcoEcho" width="150" height="100" />
       </div>
-
     <div className="Informacion">
       <h3>INFORMACION</h3>
       <Link to="/information" className="links">
@@ -28,7 +26,6 @@ export default function Footer(){
         <p>Preguntas frecuentes</p>
       </Link>
     </div>
-
     <div className="Contacto">
       <h3>CONTACTO</h3>
       <p>
