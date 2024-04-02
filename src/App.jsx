@@ -5,6 +5,7 @@ import Contacto from './pages/Contacto';
 import Nosotros from './pages/Nosotros';
 import Gracias from './pages/Gracias';
 import Servicios from './pages/Servicios';
+import ClienteDetalle from './pages/ClienteDetalle';
 import './App.css'
 
 function App() {
@@ -18,6 +19,8 @@ function App() {
         <Route exact path="/gracias" element={<Gracias />} />
         <Route exact path="/nosotros" element={<Nosotros />} />
         <Route exact path="/servicios" element={<Servicios />} />
+        <Route exact path="/serviciosdetalle/:id" element={<ClienteDetalle />} />
+
       </Routes>
      
       </div>

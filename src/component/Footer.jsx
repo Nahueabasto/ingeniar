@@ -29,13 +29,13 @@ export default function Footer(){
     <div className="Contacto">
       <h3>CONTACTO</h3>
       <p>
-         +54 998 844 022
+         Arq. Maria Paula Ramos Landa
       </p>
       <p>
-         contacto@ecoecho.com
+         Mpaula.ramoslanda@gmail.com
       </p>
       <p>
-        Argentina
+        +54 998 844 022
       </p>
 </div>
   

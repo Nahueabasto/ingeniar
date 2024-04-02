@@ -26,7 +26,7 @@ const Equipment = () => {
   ];
 
   return (
-    <div className="">
+    <div className="equipe">
   <h1 className="title">El equipo</h1>
   <div className="group-container">
     {groupMembers.map(member => (

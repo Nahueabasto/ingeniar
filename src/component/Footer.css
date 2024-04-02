@@ -49,19 +49,13 @@
 }
 
 
-.mui:hover {
-  color: lightgreen;
-  transition: all 0.2s ease;
-}
-
-
-  .links {
+.links {
     text-decoration: none;
     color: inherit;
   }
   
   .links:hover {
-    color: green;
+    color:  rgba(61, 62, 150, 0.85);
   }
   
 

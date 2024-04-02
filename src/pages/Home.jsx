@@ -3,6 +3,7 @@ import NavBar from '../component/Navbar';
 import Slider from '../component/Slider';
 import Footer from '../component/Footer';
 import Phrase from '../component/Pharse';
+import Summary from '../component/Summary';
 
 export default function Home(){
     useEffect(() => {
@@ -15,6 +16,7 @@ export default function Home(){
             <NavBar />
             <Slider />
             <Phrase />
+            <Summary />
             <Footer />
         </div>
     )

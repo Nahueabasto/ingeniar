@@ -1,7 +1,9 @@
 import React, { useEffect } from 'react';
 import Navbaralt from '../component/NavbarAlt';
 import Footer from '../component/Footer';
-import Services from '../component/Services';
+import Services from '../component/ServicesProduct/Services';
+//import ServicesProject from '../component/ServicesProduct/ServicesProject';
+
 export default function Servicios(){
 
     useEffect(() => {
@@ -13,6 +15,7 @@ export default function Servicios(){
         <div>
             <Navbaralt />
             <Services /> 
+            {/* <ServicesProject />  */}
             <Footer />
         </div>
     )
