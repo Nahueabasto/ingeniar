@@ -11,7 +11,7 @@
 
 .imagenes-container img{
     width: 550px;
-    height: 400px; /* Establece la altura fija que desees para las imágenes */
+    height: auto; /* Establece la altura fija que desees para las imágenes */
      /* El ancho se ajustará automáticamente */
     border-radius: 2px;
     cursor: pointer;
