@@ -16,7 +16,7 @@ import "./ServicesCard.css";
             style={{
               width: '350px',
               height: 'auto',
-              opacity: hovered ? 0.3 : 1, // Cambia la opacidad cuando el mouse está encima
+              opacity: hovered ? 0.4 : 1,
             }}
             onMouseEnter={() => setHovered(true)}
             onMouseLeave={() => setHovered(false)}
@@ -25,7 +25,7 @@ import "./ServicesCard.css";
             <div // Contenedor del texto con evento onMouseEnter para mantener la opacidad de la imagen
               onMouseEnter={() => setHovered(true)}
               onMouseLeave={() => setHovered(false)}
-              style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', padding: '0px', color: 'black', fontSize: '20px', textAlign: 'center', width: '90%' }}
+              style={{ position: 'absolute', top: '60%', left: '50%', transform: 'translate(-50%, -50%)', padding: '0px', color: 'black', fontSize: '20px', textAlign: 'center', width: '90%' }}
             >
               <p className="project-title">{props.title}</p>
             </div>

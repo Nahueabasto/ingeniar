@@ -1,12 +1,12 @@
-import img from "../../img/ingeniar.png";
-import im from "../../img/ing.png";
+import img from "../../img/leandro.png";
+import im from "../../img/leandroo.png";
 
 
 const ServicesData = [
   {
     id: 1,
     imgsrc: [img, im],
-    title: "E-commerce: Organic products",
+    title: "Proyecto 1",
     text: "proye.",
     deploy: "fg", // Mantén solo una instancia de la clave deploy
     git: "",
@@ -16,7 +16,7 @@ const ServicesData = [
       {
         id: 2,
         imgsrc: [im],
-        title: "Olivia Chicken Shop",
+        title: "Proyecto 2",
         text: "proyecto.",
         git: "https://github.com/Nahueabasto/Polleria-Olivia",
         video: "videoPolleria",
@@ -26,7 +26,7 @@ const ServicesData = [
     {
     id: 3,
     imgsrc: [img],
-    title: "Financial news",
+    title: "Proyecto 3",
     text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
     git: "https://github.com/Nahueabasto/Economia",
     video: "videoEconomia",

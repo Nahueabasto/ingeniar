@@ -1,6 +1,5 @@
 .detalle-f{
-  padding: 10rem 10px 2rem 10px;
-    max-width: 10000px;
+  padding: 10rem 150px 2rem 150px;
     margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -10,9 +9,9 @@
 }
 
 .imagenes-container img{
-    width: 550px;
+    width: 700px;
     height: auto; /* Establece la altura fija que desees para las imágenes */
-     /* El ancho se ajustará automáticamente */
+    position: relative;
     border-radius: 2px;
     cursor: pointer;
 }
@@ -25,7 +24,6 @@
   word-wrap: break-word; /* Otra propiedad relacionada con el salto de palabras */
   max-width: 100%; /* Limita el ancho máximo para evitar que las palabras se salgan de los márgenes */
 }
-
 
 
   .iconos-container{
@@ -47,7 +45,6 @@
 
   .mui {
     display: flex;
-    
     align-items: center;
     /* white-space: nowrap; */
     text-align: center;
@@ -80,28 +77,42 @@
     text-align: center;
   }
 
-  .leftArrow {
+  .image-counte {
+    
     position: absolute;
-    top: 45%;
-    transform: translate(0, -50%);
+    top: 10px;
+    right: 20px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    z-index: 2; /* Asegura que el contador esté por encima de las flechas */
+  }
+  
+  .leftArrow {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     left: 50px;
     font-size: 50px;
     font-weight: 700;
     color: #fff;
-    z-index: 1;
+    z-index: 2; /* Asegura que las flechas estén por encima de las imágenes */
     cursor: pointer;
     user-select: none; /* para que no quede seleccionada la flecha */
   }
   
   .rightArrow {
     position: absolute;
-    top: 45%;
-    transform: translate(0, -50%);
+    top: 50%;
+    transform: translateY(-50%);
     right: 20px;
     font-size: 50px;
     font-weight: 700;
     color: #fff;
-    z-index: 1;
+    z-index: 2; /* Asegura que las flechas estén por encima de las imágenes */
     cursor: pointer;
     user-select: none;
   }
@@ -139,7 +150,6 @@
     border-radius: 50%;
   }
 
-  /* modal */
   .modal-background{
     position: fixed;
     z-index: 999;
@@ -153,17 +163,13 @@
     
   }
 
-
   .imagen-modal{
-    top: 100%;
-    min-width: 700px;
-    max-width: 500px;
-    min-height: 200px;
-    min-height: 500px;
+    width: 800px;
+    height: auto;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-    /* overflow-y: auto; */
+    margin-top: 30px;
+   
   }
 
   .modal-close{
@@ -175,7 +181,7 @@
 
   .modal-arrow-left{
     position: absolute;
-    top: 18rem;
+    top: 20rem;
     transform: translate(0, -50%);
     left: 32px;
     font-size: 50px;
@@ -188,7 +194,7 @@
 
   .modal-arrow-right{
     position: absolute;
-    top: 18rem;
+    top: 20rem;
     transform: translate(0, -50%);
     right: 32px;
     font-size: 50px;
@@ -199,6 +205,30 @@
     user-select: none;
   }
 
+  .image-counter {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    top: 2rem;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+
+  @media screen and (max-width: 1600px) {
+    .imagenes-container img{
+      width: 600px;
+  }
+  }
+
+  @media screen and (max-width: 1466px) {
+    .imagenes-container img{
+      width: 500px;
+  }
+  }
 
   @media screen and (max-width: 1100px) {
     .detalle-f {
