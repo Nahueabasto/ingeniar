@@ -5,7 +5,7 @@ import "./ServicesSlider.css";
 const ServicesSlider = () => {
   return (
     <div className="heronimo">
-        <h1>Trabajos recientes</h1>
+        <h2>Trabajos recientes</h2>
     </div>
   );
 };
