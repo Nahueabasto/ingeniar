@@ -1,5 +1,5 @@
 .detalle-f{
-  padding: 10rem 150px 2rem 150px;
+  padding: 10rem 200px 2rem 200px;
     margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -56,7 +56,7 @@
   .leftArrow {
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     left: 50px;
     font-size: 50px;
@@ -69,7 +69,7 @@
   
   .rightArrow {
     position: absolute;
-    top: 50%;
+    top: 45%;
     transform: translateY(-50%);
     right: 20px;
     font-size: 50px;

@@ -89,6 +89,7 @@ const ServiciesDetalle = () => {
   return (
     <div className="detalle-f">
       <div className="pepe">
+        <h3>{casa.title}</h3>
       <p>{casa.text}</p>
     </div>
     <div className="imagenes-container" style={{ position: 'relative' }} {...handlers}>
