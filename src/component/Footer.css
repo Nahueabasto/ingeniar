@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  padding: 40px 0; /* Alto de Footer */
+  padding: 50px 0; /* Alto de Footer */
   color: white; /* Cambia el color del texto a blanco */
   flex-direction: column;
   /* background-image: url('../img/footer.png'); */
@@ -81,7 +81,7 @@
   @media screen and (max-width: 505px) {
     .container {
       grid-template-columns: 1fr;
-      grid-gap: 0px;
+      /* grid-gap: 0px; */
     }
 
     .container div {

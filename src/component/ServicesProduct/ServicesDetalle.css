@@ -228,10 +228,10 @@
 
   @media screen and (max-width: 600px) {
     /* .detalle-f{
-      padding: 0rem 0px 0rem 0px;
+      width: 10%;
         } */
     .imagenes-container img{
-      width: 350px;
+      width: 300px;
       height: auto; 
   }
 
@@ -257,6 +257,4 @@
     overflow-wrap: break-word; /* Permite el salto de palabras si no caben en el ancho */
     
   }
-
-
   }
