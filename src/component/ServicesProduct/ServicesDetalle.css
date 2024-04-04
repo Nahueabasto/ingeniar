@@ -227,11 +227,11 @@
   }
 
   @media screen and (max-width: 600px) {
-    /* .detalle-f{
-      width: 10%;
-        } */
+    .detalle-f{
+      padding: 10rem 0px 2rem 0px;
+        }
     .imagenes-container img{
-      width: 300px;
+      width: 350px;
       height: auto; 
   }
 
@@ -257,4 +257,6 @@
     overflow-wrap: break-word; /* Permite el salto de palabras si no caben en el ancho */
     
   }
+
+
   }
