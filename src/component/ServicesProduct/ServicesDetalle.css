@@ -30,7 +30,7 @@
   .dot-container {
     display: flex;
     justify-content: center;
-    margin-left: 50px;
+   
   }
 
   .dot-container-item {
@@ -58,7 +58,7 @@
     position: absolute;
     top: 45%;
     transform: translateY(-50%);
-    left: 50px;
+    left: 10px;
     font-size: 50px;
     font-weight: 700;
     color: #fff;
@@ -71,7 +71,7 @@
     position: absolute;
     top: 45%;
     transform: translateY(-50%);
-    right: 20px;
+    right: 10px;
     font-size: 50px;
     font-weight: 700;
     color: #fff;
@@ -228,7 +228,7 @@
 
   @media screen and (max-width: 600px) {
     /* .detalle-f{
-      width: 100%;
+      padding: 0rem 0px 0rem 0px;
         } */
     .imagenes-container img{
       width: 350px;

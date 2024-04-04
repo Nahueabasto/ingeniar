@@ -103,7 +103,7 @@ const ServiciesDetalle = () => {
     <div className="rightArrow" onClick={() => cambiarImagen('next')}>
       <ArrowForwardIosIcon size={50} style={{ color: "#d6d2d2", fontSize: "large" }} />
     </div>
-    <ul>
+    
       {casa.imgsrc.map((item, idx) => (
         <li
           key={item.id}
@@ -116,7 +116,7 @@ const ServiciesDetalle = () => {
           />
         </li>
       ))}
-    </ul>
+    
     <div className="dot-container">
       {casa.imgsrc.map((_, idx) => (
         <div
