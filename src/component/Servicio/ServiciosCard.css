@@ -39,47 +39,15 @@
     font-size: 1rem;
   }
   
-  .pro-btns {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    text-align: center;
-  }
-  
-  
-  
-  
-  .secondary-button {
-    padding: 1rem 3rem;
-    background-color: #fe9e0d;
-    outline: none;
-    border: none;
-    border-radius: 1rem;
-    font-size: 1.1rem;
-    cursor: pointer;
-    font-weight: 600;
-    color: white;
-    transition: 0.2s;
-    /* display: flex; */
-    align-items: center;
-    justify-content: center;
-  }
-  .secondary-button svg {
-    margin-left: 0.75rem;
-    font-size: 1.5rem;
-  }
-  .secondary-button:hover {
-    background-color: #e48f0f;
-  }
   
   @media screen and (max-width: 945px) {
-    .project-container {
+    .project-containerr {
       max-width: 10%;
       margin: auto;
       grid-template-columns: 1fr;
     }
 
-    .project-card img {
+    .project-cardd img {
       width: 350px;
       height: 250px; /* Establece la altura fija que desees para las imágenes */
        /* El ancho se ajustará automáticamente */
