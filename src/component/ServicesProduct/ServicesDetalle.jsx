@@ -1,7 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from "react-router-dom";
 import ServicesData from './ServicesData';
-
 import "./ServicesDetalle.css";
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
@@ -11,7 +10,7 @@ import { useSwipeable } from 'react-swipeable';
 
 const ServiciesDetalle = () => {
   const { id } = useParams();
-  const [zoom, setZoom] = useState(1);
+  // const [zoom, setZoom] = useState(1);
   const [imagenActual, setImagenActual] = useState(0);
   const [modalVisible, setModalVisible] = useState(false);
   const casa = ServicesData.find((casa) => casa.id === Number(id));
@@ -104,17 +103,17 @@ const ServiciesDetalle = () => {
       <ArrowForwardIosIcon size={50} style={{ color: "#d6d2d2", fontSize: "large" }} />
     </div>
     
-      {casa.imgsrc.map((item, idx) => (
-        <li
-          key={item.id}
-          style={{ display: idx === imagenActual ? 'block' : 'none' }}
-        >
-          <img
-            src={item}
-            alt={`Imagen ${idx + 1}`}
-            onClick={abrirModal}
-          />
-        </li>
+    {casa.imgsrc.map((item, idx) => (
+  <li
+    key={idx} // Usando idx como clave única
+    style={{ display: idx === imagenActual ? 'block' : 'none' }}
+  >
+    <img
+      src={item}
+      alt={`Imagen ${idx + 1}`}
+      onClick={abrirModal}
+    />
+  </li>  
       ))}
     
     <div className="dot-container">

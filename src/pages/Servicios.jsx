@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import Navbaralt from '../component/NavbarAlt';
 import Footer from '../component/Footer';
 import Services from '../component/ServicesProduct/Services';
-//import ServicesProject from '../component/ServicesProduct/ServicesProject';
+import ServicosProject from '../component/Servicio/ServiciosProject';
 
 export default function Servicios(){
 
@@ -15,7 +15,7 @@ export default function Servicios(){
         <div>
             <Navbaralt />
             <Services /> 
-            {/* <ServicesProject />  */}
+            <ServicosProject />  
             <Footer />
         </div>
     )
