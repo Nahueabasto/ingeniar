@@ -8,18 +8,10 @@ const ServiciosCard = (props) => {
 
   return (
     <div className="project-cardd">
-      <img src={primeraImagen} alt="imagen" />
-      <h2 className="project-titlee">{props.titulo}</h2>
-      <div className="pro-detailss">
-        {/* <p>{props.text}</p> */}
-        <div>
-          {/* <Link to={`/casa/${props.id}`} style={{ textDecoration: "none" }}> */}
-            <button className="secondary-button">
-              {props.descripcion}
-            </button>
-          {/* </Link> */}
-        </div>
-      </div>
+      <img className="imagen" src={primeraImagen} alt="imagen" />
+      <p className="project-titlee">{props.titulo}</p>
+      <p className="pro-descripcion"> {props.descripcion}
+        </p>
     </div>
   );
 };

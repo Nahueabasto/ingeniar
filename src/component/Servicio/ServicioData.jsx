@@ -6,20 +6,20 @@ const ServicioData = [
   {
     id: 1,
     imgsr: [img],
-    titulo: "Proyecto 1",
-    descripcion: "proye.",
+    titulo: "Planeamiento",
+    descripcion: "Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.",
   },
   {
     id: 2,
     imgsr: [img],
-    titulo: "Proyecto 2",
-    descripcion: "proye.",
+    titulo: "Maquetas",
+    descripcion: "Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.",
   },
   {
     id: 3,
     imgsr: [img],
-    titulo: "Proyecto 3",
-    descripcion: "proye.",
+    titulo: "Construcción",
+    descripcion: "Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.",
   },
 ];
 

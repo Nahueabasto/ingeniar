@@ -4,8 +4,8 @@ import "./ServicesSlider.css";
 
 const ServicesSlider = () => {
   return (
-    <div className="heronimo">
-        <h2>Trabajos recientes</h2>
+    <div className="subtitle-containe">
+        <h1>Trabajos recientes</h1>
     </div>
   );
 };
