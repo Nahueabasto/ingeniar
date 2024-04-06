@@ -7,7 +7,7 @@ const ServicesData = [
     id: 1,
     imgsrc: [img, im],
     title: "Proyecto 1",
-    text: "proye.",
+    text: "Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.",
     deploy: "fg", // Mantén solo una instancia de la clave deploy
     git: "",
     video: "videoEco",
@@ -17,7 +17,7 @@ const ServicesData = [
         id: 2,
         imgsrc: [im],
         title: "Proyecto 2",
-        text: "proyecto.",
+        text: "Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.",
         git: "https://github.com/Nahueabasto/Polleria-Olivia",
         video: "videoPolleria",
         deploy: "https://polleria-olivia.vercel.app/",
@@ -27,22 +27,12 @@ const ServicesData = [
     id: 3,
     imgsrc: [img],
     title: "Proyecto 3",
-    text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
+    text: "Párrafo. Haz clic aquí para agregar tu propio texto y editar. Es fácil. Haz clic en Editar Texto o doble clic aquí para agregar tu contenido y cambiar la fuente. En este espacio puedes contar tu historia y permitir a tus usuarios saber más sobre ti.",
     git: "https://github.com/Nahueabasto/Economia",
     video: "videoEconomia",
     deploy: "https://economia-theta.vercel.app/",
     technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
   },
-  // {
-  //   id: 4,
-  //   imgsrc: noticias,
-  //   title: "Financial news",
-  //   text: "I did this project purely self-taught, where from requests to an API, it allows us to bring the price of the dollar, euro and different cryptocurrencies.",
-  //   git: "https://github.com/Nahueabasto/Economia",
-  //   video: videoEconomia,
-  //   deploy: "https://economia-theta.vercel.app/",
-  //   technological: "JavaScript, React, NodeJS, Express, Sequelize, Git, CSS.",
-  // },
 ];
 
 export default ServicesData;

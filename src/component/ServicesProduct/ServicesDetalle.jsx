@@ -74,7 +74,7 @@ const ServiciesDetalle = () => {
     };
    }, [modalVisible, imagenActual]);
 
-  /////////////////////////////////////////////
+  
   const handlers = useSwipeable({
     onSwipedLeft: () => cambiarImagen('next'),
     onSwipedRight: () => cambiarImagen('prev'),
@@ -86,9 +86,10 @@ const ServiciesDetalle = () => {
   });
 
   return (
+    <div className='dete'>
+      <h3>{casa.title}</h3>
     <div className="detalle-f">
       <div className="pepe">
-        <h3>{casa.title}</h3>
       <p>{casa.text}</p>
     </div>
     <div className="imagenes-container" style={{ position: 'relative' }} {...handlers}>
@@ -105,7 +106,7 @@ const ServiciesDetalle = () => {
     
     {casa.imgsrc.map((item, idx) => (
   <li
-    key={idx} // Usando idx como clave única
+    key={idx} 
     style={{ display: idx === imagenActual ? 'block' : 'none' }}
   >
     <img
@@ -154,6 +155,7 @@ const ServiciesDetalle = () => {
     />
   </div>
 )}
+  </div>
   </div>
   );
 };

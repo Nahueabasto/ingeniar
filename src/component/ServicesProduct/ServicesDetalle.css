@@ -1,5 +1,15 @@
-.detalle-f{
+.dete{
   padding: 10rem 200px 2rem 200px;
+}
+
+.dete h3{
+  color: rgba(61, 62, 150, 0.85);
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.detalle-f{
+  /* padding: 10rem 200px 2rem 200px; */
     margin: 0 auto; /* Esto centrará el contenedor en la página horizontalmente */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
