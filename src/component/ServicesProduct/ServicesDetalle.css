@@ -1,5 +1,6 @@
 .dete{
   padding: 10rem 200px 2rem 200px;
+  margin-bottom: 30px;
 }
 
 .dete h3{
@@ -16,6 +17,7 @@
     grid-gap: 40px; /* Espacio entre tarjetas */
     justify-content: center; /* Centrar las columnas horizontalmente */
     text-align: center;
+
 }
 
 .imagenes-container img{
@@ -236,10 +238,20 @@
 
   }
 
+
+
   @media screen and (max-width: 600px) {
-    .detalle-f{
+    .dete{
       padding: 10rem 0px 2rem 0px;
-        }
+    }
+    .dete h3{
+      padding: 0rem 0px 0rem 25px;
+    }
+
+    .pepe {
+      padding: 0rem 0px 0rem 20px;
+    }
+
     .imagenes-container img{
       width: 350px;
       height: auto; 
@@ -267,6 +279,4 @@
     overflow-wrap: break-word; /* Permite el salto de palabras si no caben en el ancho */
     
   }
-
-
   }

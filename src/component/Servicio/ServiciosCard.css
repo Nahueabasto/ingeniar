@@ -45,6 +45,7 @@
       max-width: 10%;
       margin: auto;
       grid-template-columns: 1fr;
+      grid-row-gap: 50px;
     }
 
     .project-cardd img {
