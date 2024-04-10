@@ -219,7 +219,6 @@
 
     .imagenes-container{
       justify-content: center;
-      /* margin-right: 30px; */
     }
 
   }
@@ -240,7 +239,7 @@
 
 
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1000px) {
     .dete{
       padding: 10rem 0px 2rem 0px;
     }

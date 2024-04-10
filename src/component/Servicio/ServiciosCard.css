@@ -38,8 +38,18 @@
     word-spacing: normal;
     font-size: 1rem;
   }
+
+
+  @media screen and (max-width: 1200px) {
+    .project-containerr {
+      max-width: 10%;
+      margin: auto;
+      grid-template-columns: repeat(2, 1fr);
+      grid-row-gap: 50px;
+    }
+  }
   
-  
+
   @media screen and (max-width: 945px) {
     .project-containerr {
       max-width: 10%;
