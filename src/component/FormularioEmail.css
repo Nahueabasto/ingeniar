@@ -13,14 +13,18 @@
 }
 
 .heading-container {
-  
     text-align: left;
     margin-top: 0px;
     margin-left: 80px;
   }
 
+  .primary-heading{
+    color: rgba(61, 62, 150, 0.85);
+  }
+
   .primary-headin{
     margin-top: 20px;
+    color: rgba(61, 62, 150, 0.85);
   }
   
 
@@ -60,6 +64,7 @@
       font-size: 19px;
       color: #555454;
       width: 100%;
+      color: rgba(61, 62, 150, 0.85);
     }
     
     .field input[type="text"],
@@ -78,18 +83,7 @@
     textarea {
       resize: vertical; 
     }
-    
-    /* input[type="submit"] {
-      display: block;
-      padding: 8px 30px;
-      font-size: 14px;
-      background-color: #4460AA;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer; 
-    }
-     */
+
      
     .btn-send {
       min-width: 560px;
