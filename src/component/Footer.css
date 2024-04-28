@@ -1,11 +1,9 @@
 .footer {
   display: flex;
-  padding: 50px 0; /* Alto de Footer */
-  color: white; /* Cambia el color del texto a blanco */
+  padding: 50px 0; 
+  color: white; 
   flex-direction: column;
-  /* background-image: url('../img/footer.png'); */
   background-size: cover;
-  /* background-position: center; */ /* PARA QUE LA IMAGEN QUEDE CENTRADA */
   background-attachment: fixed;
   background-repeat: no-repeat;
   z-index: -1;
@@ -25,6 +23,7 @@
 .Informacion{
   justify-content: center;
   padding: 0rem 0px 0rem 20px;
+  
 }
 
 .Contacto{
@@ -35,8 +34,8 @@
 .Contacto p,
 .Informacion p {
   margin-bottom: 5px;
- 
 }
+
 
 .logotipo{
   justify-content: center;

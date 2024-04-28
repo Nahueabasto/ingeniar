@@ -19,11 +19,11 @@ export default function Footer(){
       </div>
     <div className="Informacion">
       <h3>INFORMACION</h3>
-      <Link to="/information" className="links">
-        <p>Quienes somos</p>
-      </Link>
-      <Link to="/" className="links">
-        <p>Preguntas frecuentes</p>
+      <Link to="/nosotros" className="links">
+        <p>Nosotros</p>
+        </Link>
+      <Link to="/contacto" className="links">
+        <p>Contacto</p>
       </Link>
     </div>
     <div className="Contacto">

@@ -10,7 +10,6 @@ import { useSwipeable } from 'react-swipeable';
 
 const ServiciesDetalle = () => {
   const { id } = useParams();
-  // const [zoom, setZoom] = useState(1);
   const [imagenActual, setImagenActual] = useState(0);
   const [modalVisible, setModalVisible] = useState(false);
   const casa = ServicesData.find((casa) => casa.id === Number(id));

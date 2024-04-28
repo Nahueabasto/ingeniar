@@ -9,10 +9,10 @@ import "./Slider.css";
 
 const Slider = () => {
   const [slidePictures, setSlidePictures] = useState([
-    { image: Imagen, phrase: "Frase 1", url: '/40' },
-    { image: image1, phrase: "Frase 2", url: '/32' },
-    { image: image2, phrase: "Frase 3", url: '/21' },
-    { image: image3, phrase: "Frase 4", url: '/10' }
+    { image: Imagen, phrase: "LÍDERES EN CALIDAD DE CONSTRUCCIÓN E INFRAESTRUCTURA", url: '/40' },
+    { image: image1, phrase: "LÍDERES EN CALIDAD DE CONSTRUCCIÓN E INFRAESTRUCTURA", url: '/32' },
+    { image: image2, phrase: "LÍDERES EN CALIDAD DE CONSTRUCCIÓN E INFRAESTRUCTURA", url: '/21' },
+    { image: image3, phrase: "LÍDERES EN CALIDAD DE CONSTRUCCIÓN E INFRAESTRUCTURA", url: '/10' }
   ]);
   const [currentSlideIndex, setCurrentSlideIndex] = useState(0);
   const [imageLoaded, setImageLoaded] = useState(false);
