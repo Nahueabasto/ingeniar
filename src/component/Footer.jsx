@@ -18,7 +18,7 @@ export default function Footer(){
       <img className="logoeco" src={Imagen} alt="EcoEcho" width="150" height="100" />
       </div>
     <div className="Informacion">
-      <h3>INFORMACION</h3>
+      {/* <h3>INFORMACION</h3> */}
       <Link to="/nosotros" className="links">
         <p>Nosotros</p>
         </Link>
@@ -27,7 +27,7 @@ export default function Footer(){
       </Link>
     </div>
     <div className="Contacto">
-      <h3>CONTACTO</h3>
+      {/* <h3>CONTACTO</h3> */}
       <p>
          Arq. Maria Paula Ramos Landa
       </p>
